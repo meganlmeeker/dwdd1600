@@ -1,0 +1,139 @@
+/* this is my CSS page */
+body {
+    font-family: 'Didot', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+header {
+    background-color: #CEDBA0;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #3a3632;
+}
+header p {
+    margin: 0;
+    color: #3a3632;
+    margin-top: 20px;
+    letter-spacing: .5px;
+}
+
+/* this is the Navigation section */
+
+nav{
+    background-color: #F1D9D4;
+    border-style: double;
+    border-color: #3a3632;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #DBA195;
+    font-weight: 600;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a{
+    background-color: #DBA195;
+    color: #F1D9D4;
+}
+nav a:hover{
+    color: #3a3632;
+}
+
+/* this is the Main section */
+
+main{
+    padding: 1rem 2vw;
+    background-color: #F1ECE4;
+}
+main h1{
+    color: #3a3632;
+}
+main h2 {
+    color: #3a3632;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #3a3632;
+    padding: 0 0 .3rem 0;
+}
+main ol {
+    color: #6E7E8C;
+    padding: .5rem 3vw;
+    list-style-type: lower-roman;
+}
+main ul {
+    color:#3a3632;
+    padding: .5rem 3vw;
+    list-style-type: square;
+}
+main dl {
+    color:#3a3632;
+    padding: .5rem 2vw;
+}
+
+main p a {
+    color: #6E7E8C
+}
+
+/* image formatting */
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem
+}
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color: #AF8077;
+}
+
+/* this is the Adress section */
+
+address {
+    color: #3a3632;
+    font-size: .9rem
+}
+address a {
+    color: #3a3632
+}
+
+/* this is the Footer section */
+footer {
+    background-color: #DBD0BD;
+    text-align: center;
+    color: #3a3632;
+    padding: 1rem 0;
+    font-size: .8rem
+}
+footer a {
+    color: #3a3632;
+    clear: both;
+}
