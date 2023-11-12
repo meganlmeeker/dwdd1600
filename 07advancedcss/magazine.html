@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Learn about bugs around the world"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bugs.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <title>A Guide to Bugs: Order a Magazine</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <img src="images/logo.png" alt="site logo" width="85" height="100">
+        <div>
+        <h1>A Guide to Bugs</h1>
+        <p>Identifying critters around the globe!</p>
+        </div>
+      </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="active"><a href="magazine.html">Magazine Orders</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Subscribe to our magazine!</h1>
+    <form method="get" class="myform" action="thanks.html">
+    <fieldset>
+        <legend>Customer Information</legend>
+        <label>First Name: <input type="text" name="firstname" required></label>
+        <label>Last Name: <input type="text" name="lastname" required></label>
+        <label>Cell Number: <input type="tel" name="phone" required placeholder="123-456-7890"></label>
+    </fieldset>
+    <fieldset>
+        <legend>Frequency</legend>
+        <label><input type="radio" name="method" value="drone">Monthly</label>
+        <label><input type="radio" name="method" value="cycle">Every 6 months</label>
+        <label><input type="radio" name="method" value="robot">Once a year</label>
+    </fieldset>
+    <fieldset>
+        <legend>Extra Package Contents</legend>
+        <label><input type="checkbox" name="porch" value="porch">Stickers</label>
+        <label><input type="checkbox" name="deck" value="deck">Pin</label
+        <label><input type="checkbox" name="driveway" value="driveway">Socks</label>
+        <label><input type="checkbox" name="garage" value="garage">Poster</label>
+    </fieldset> 
+    <fieldset>
+        <legend>Shipping Method</legend>
+        <label>Shipping Method</label>
+            <select name="package">
+                <option value="none">Please Select</option>
+                <option value="eco-friendly">Biodegradeable</option>
+                <option value="compact">Compact</option>
+                <option value="fragile">Extra bubblewrap</option>
+                <option value="classic">Classic</option>
+            </select>
+    </fieldset>   
+    
+    <label>Comments:
+        <textarea name="comments">Please specify any other requests.</textarea>
+    </label><br><br>
+    <input type="submit" value="Place Order">
+  </form>    
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>&copy; 2023 &bull; Megan Meeker &bull; All Rights Reserved</footer>
+</body>
+</html>
